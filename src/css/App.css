@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600&display=swap");
 .color-body {
-  background-color: #fce5bc;
+  background-color: #f5d08f;
 }
 
 * {
@@ -69,7 +69,9 @@ h1 {
 }
 
 .mg-1 {
-  margin: 1em;
+  margin: 3em;
+  border: #4f372f solid 1px;
+  border-radius: 5px;
 }
 
 .btn {
@@ -81,10 +83,15 @@ h1 {
   font-weight: 500;
   margin: 1em;
   background-color: #ffb500;
+  text-transform: uppercase;
+}
+
+.btn a:hover {
+  color: #4f372f;
 }
 
 .logo {
-  height: 3em;
+  height: 5em;
 }
 
 .fondo {
@@ -95,6 +102,10 @@ h1 {
 
 .text-box {
   border-radius: 1em;
+}
+
+.opciones-pedido {
+  background-color: #513a2a;
 }
 
 table {
@@ -161,7 +172,7 @@ table {
     padding: 1em;
     border: none;
     outline: none;
-    background-color: #F781;
+    width: auto;
   }
 }
 

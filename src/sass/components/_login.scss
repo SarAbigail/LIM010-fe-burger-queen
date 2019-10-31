@@ -4,8 +4,9 @@ $font: 'Quicksand', sans-serif;
 $primary: #F781;
 $btn-color:#ffb500;
 $btn-color2:#2E2A25;
-$home-color:#fce5bc;
+$home-color:#f5d08f;
 $pedido-color:#4f372f;
+$opciones-pedido: #513a2a;
 $letra-color:#ffff;
 .color-body{
  background-color: $home-color;
@@ -73,7 +74,9 @@ h1{
   flex: 1 0 auto;
 }
 .mg-1{
-  margin: 1em;
+  margin: 3em;
+  border: #4f372f solid 1px;
+  border-radius: 5px;
 }
 .btn{
   @include centered;
@@ -83,10 +86,14 @@ h1{
   font-weight: 500;
   margin: 1em;
   background-color: $btn-color;
+  text-transform: uppercase;
+}
+.btn a:hover{
+  color:$pedido-color ;
 
 }
 .logo{
-  height:3em;
+  height:5em;
 }
 .fondo{
   background-image: url("https://www.animalgourmet.com/wp-content/uploads/2016/07/hamburguesa.jpg");
@@ -96,4 +103,7 @@ h1{
 .text-box{
   @extend %container;
   border-radius: 1em;
+}
+.opciones-pedido{
+  background-color:$opciones-pedido;
 }
