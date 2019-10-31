@@ -5,8 +5,7 @@ import Footer from '../piezas/Footer';
 import '../../css/App.css'
 import OrdenDetalles from './OrdenDetalles';
 import NuevaOrden from './NuevaOrden';
-import Opciones from '../piezas/Opciones';
-// import ListoParaServir from './ListoParaServir';
+import FuncionesDelMesero from './FuncionesDelMesero';
 
 const Mesero = () => {
   const [tipo, setTipo] = useState('desayuno');
@@ -34,17 +33,13 @@ const Mesero = () => {
   return (
     <React.Fragment>
       <Header />
-      <Opciones />
-      <div className="column-pedidos" >
-
-          <div><NuevaOrden setTipo={setTipo} productos={productos} name={name} setName={setName} seleccionados={seleccionados} setSeleccionados={setSeleccionados} /></div>
-          <div>
-            <OrdenDetalles seleccionados={seleccionados} name={name} setName={setName} setSeleccionados={setSeleccionados} setTotal={setTotal} total={total} />
-          </div>
+      <FuncionesDelMesero />
+      <div className="column-pedidos fila" >
+        <NuevaOrden setTipo={setTipo} productos={productos} name={name} setName={setName} seleccionados={seleccionados} setSeleccionados={setSeleccionados} />
+        <OrdenDetalles seleccionados={seleccionados} name={name} setName={setName} setSeleccionados={setSeleccionados} setTotal={setTotal} total={total} />
       </div>
       <Footer />
     </React.Fragment>
   );
-
 }
 export default Mesero;

@@ -1,6 +1,5 @@
 import React from 'react';
-import TituloPedidos from '../piezas/TituloPedidos'
-import NombreCliente from './nombreCliente';
+import NombreCliente from './NombreCliente';
 import BotonOpciones from '../BotonOpciones';
 
 const NuevaOrden = ({ name, setName, setTipo, productos, seleccionados, setSeleccionados }) => {
@@ -28,11 +27,11 @@ const NuevaOrden = ({ name, setName, setTipo, productos, seleccionados, setSelec
 	}
 
 	return (
-		<div className="col mg-1 center-item">
-			<form className="form-box">
-				<TituloPedidos texto="NUEVA ORDEN " />
+		<div className="w-50"> 
+			<form className="order-box">
+				<h1>Nueva Orden</h1>
 				<NombreCliente name={name} setName={setName} />
-				<div className="row centered">
+				<div className="row">
 					<BotonOpciones funcionDeSetearTipo={setTipo} texto="DESAYUNO" tipo="desayuno" />
 					<BotonOpciones funcionDeSetearTipo={setTipo} texto="ALMUERZO  Y CENA" tipo="almuerzo" />
 					<BotonOpciones funcionDeSetearTipo={setTipo} texto="BEBIDAS" tipo="bebidas" />

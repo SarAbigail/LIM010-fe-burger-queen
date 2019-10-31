@@ -7,8 +7,8 @@ const NombreCliente = ({ name, setName }) => {
 	}
 	return (
 		<div>
-			<label className="row centered">Nombre del Cliente:
-              <input  type="text" className="text-box mg-1" value={name} onChange={handleNamChange} />
+			<label className="">Nombre del Cliente:
+              <input  type="text" className="" value={name} onChange={handleNamChange} />
 			</label>
 		</div>
 	)

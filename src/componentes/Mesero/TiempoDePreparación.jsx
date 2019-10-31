@@ -2,7 +2,7 @@ import React from 'react';
 
 const TiempoDePreparacion = ({ p }) => {
 
-	let fin = p.preparación.toDate().getTime(); 
+	let fin = p.duración.toDate().getTime(); 
 	let inicio = p.hora.toDate().getTime();
 	const getTime = () => {
 		let miliseg = fin - inicio;

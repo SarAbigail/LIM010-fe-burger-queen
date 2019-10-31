@@ -1,7 +1,6 @@
 import React from 'react';
 import firebase from '../firebase';
 import '../../css/App.css';
-import TituloPedidos from '../piezas/TituloPedidos';
 
 export const OrdenDetalles = ({ seleccionados, name, setSeleccionados, setTotal, total,setName }) => {
   const Eliminar = (elegido) => {
@@ -37,9 +36,9 @@ export const OrdenDetalles = ({ seleccionados, name, setSeleccionados, setTotal,
 
   return (
     <React.Fragment>
-      <div className="col mg-1 center-item">
-        <form className="form-box">
-          <TituloPedidos texto="DETALLES DE LA ORDEN" />
+      <div className="w-50">
+        <form className="order-box">
+          <h1>Detalles de la Orden</h1>
           <label className="mg-1">Cliente: &nbsp;{name}</label>
           <div>
             <table className="mg-1">

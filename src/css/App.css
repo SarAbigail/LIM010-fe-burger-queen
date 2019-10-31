@@ -1,78 +1,61 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600&display=swap");
 .color-body {
-  background-color: #f5d08f;
-}
+  background-color: #fce5bc; }
 
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
-.text-box, .btn {
+.btn, .text-box {
   height: max-content;
   width: max-content;
   padding: 1em;
   border: none;
-  outline: none;
-}
+  outline: none; }
 
 html, body {
   font-family: "Quicksand", sans-serif;
-  height: 100%;
-}
+  height: 100%; }
 
 header {
-  background-color: #ffb500;
-}
+  background-color: #ffb500; }
 
 header, footer {
-  height: 5em;
-}
+  height: 5em; }
 
 h1 {
   font-size: 2em;
   font-weight: 600;
-  text-align: center;
-}
+  text-align: center; }
 
 .row {
   display: flex;
-  flex-direction: row;
-}
+  flex-direction: row; }
 
 .col {
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 .centered {
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .even {
-  justify-content: space-evenly;
-}
+  justify-content: space-evenly; }
 
 .center-item {
-  align-items: center;
-}
+  align-items: center; }
 
 .footer {
   flex-shrink: 0;
-  text-align: center;
-}
+  text-align: center; }
 
 .content {
-  flex: 1 0 auto;
-}
+  flex: 1 0 auto; }
 
 .mg-1 {
-  margin: 3em;
-  border: #513a2a solid 1px;
-  border-radius: 5px;
-}
+  margin: 1em; }
 
 .btn {
   display: flex;
@@ -82,44 +65,32 @@ h1 {
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
   margin: 1em;
-  background-color: #ffb500;
-  text-transform: uppercase;
-}
-
-.btn a:hover {
-  color: #4f372f;
-}
+  background-color: #ffb500; }
 
 .logo {
-  height: 5em;
-}
+  height: 3em; }
 
 .fondo {
   background-image: url("https://www.animalgourmet.com/wp-content/uploads/2016/07/hamburguesa.jpg");
-  height: 100vw;
-  background-repeat: no-repeat;
-}
+  height: 400px;
+  background-repeat: no-repeat; }
 
 .text-box {
-  border-radius: 1em;
-}
+  border-radius: 1em; }
 
 .opciones-pedido {
   background-color: #513a2a;
 }
 
 table {
-  border: #b2b2b2 1px solid;
-}
+  border: #b2b2b2 1px solid; }
 
 td {
-  border: black 1px solid;
-}
+  border: black 1px solid; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 20px;
-}
+  border-spacing: 20px; }
 
 .product {
   margin: 10px;
@@ -129,51 +100,96 @@ table {
   -moz-border-radius: 5px;
   border-radius: 5px;
   padding-top: 15px;
-  text-align: center;
-}
+  text-align: center; }
 
 .text-card {
   font-size: 1.5rem;
-  font-family: "BlockBeCnPro", Arial, Helvetica, sans-serif;
-}
+  font-family: 'BlockBeCnPro', Arial, Helvetica, sans-serif; }
 
 .text-center {
   text-align: center !important;
   display: flex;
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; }
 
 .img-card {
-  width: 45%;
-}
+  width: 45%; }
 
 .border {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .flex-wrap {
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; }
 
 .color-item {
-  background-color: #ffb500;
-}
+  background-color: #ffb500; }
 
 .column-pedidos {
   display: flex;
   flex-direction: row;
-  width: 50%;
-}
+  width: 50%; }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .form-box {
-    height: max-content;
-    width: max-content;
+  .w-50 {
+    width: 50%;
+    margin: 1em; }
+
+  body {
+    margin: 0px; }
+
+  header {
+    background-color: #ffb500;
+    width: 100%;
+    height: 70px; }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    justify-content: flex-end;
+    margin: 0px; }
+
+  li {
+    margin: 20px; }
+
+  #title {
+    margin-right: auto; }
+
+  li a {
+    color: black;
+    text-decoration: none; }
+
+  li a:hover {
+    text-decoration: underline; }
+
+  .fila {
+    display: flex;
+    flex-direction: row; }
+
+  .order-box {
+    background-color: #ffda7f;
+    border-radius: 1em; }
+
+  h1 {
+    color: #4f372f;
+    font-weight: bolder;
+    padding: .3em; }
+
+  label {
     padding: 1em;
+    font-size: 1em; }
+
+  input {
+    border-radius: 1em;
     border: none;
-    outline: none;
-    width: auto;
-  }
-}
+    font-size: 1em;
+    padding: .3em;
+    margin: 1em; }
+
+  textarea {
+    resize: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    padding: .3em; } }
 
 /*# sourceMappingURL=App.css.map */
