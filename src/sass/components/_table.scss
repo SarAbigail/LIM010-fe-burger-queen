@@ -1,12 +1,14 @@
-
-    table {
-        border: #b2b2b2 1px solid;
-      }
-      td {
-        border: black 1px solid;
-      }
-      table {
-        border-collapse: collapse;
-        border-spacing: 20px;
-      }
-    
+// table {
+//   border: #b2b2b2 1px solid;
+// }
+td {
+  background-color: $principal;
+  border: dashed .5px $pedido-color;
+}
+th{
+  background-color: $btn-color;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 20px;
+}

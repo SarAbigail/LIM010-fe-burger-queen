@@ -5,7 +5,6 @@ import Footer from '../piezas/Footer';
 import '../../css/App.css'
 import OrdenDetalles from './OrdenDetalles';
 import NuevaOrden from './NuevaOrden';
-import FuncionesDelMesero from './FuncionesDelMesero';
 
 const Mesero = () => {
   const [tipo, setTipo] = useState('desayuno');
@@ -33,8 +32,7 @@ const Mesero = () => {
   return (
     <React.Fragment>
       <Header />
-      <FuncionesDelMesero />
-      <div className="column-pedidos fila" >
+      <div className="column-pedidos fila Site-content" >
         <NuevaOrden setTipo={setTipo} productos={productos} name={name} setName={setName} seleccionados={seleccionados} setSeleccionados={setSeleccionados} />
         <OrdenDetalles seleccionados={seleccionados} name={name} setName={setName} setSeleccionados={setSeleccionados} setTotal={setTotal} total={total} />
       </div>

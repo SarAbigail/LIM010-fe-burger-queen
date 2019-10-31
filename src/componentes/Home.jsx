@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <Header />
-
+      <div className="bg-home Site-content"></div>
       <Footer />
     </React.Fragment>
   );

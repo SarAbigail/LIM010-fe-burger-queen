@@ -2,11 +2,11 @@ $product: #f7dfb1;
 
 .product{
 margin: 10px;
-width: 41%;
-border: $pedido-color solid 1px;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
+width: 45%;
+// border: solid 1px;
+// -webkit-border-radius: 5px;
+// -moz-border-radius: 5px;
+// border-radius: 5px;
 padding-top: 15px;
 text-align: center;
 
@@ -29,10 +29,10 @@ text-align: center;
 .flex-wrap{
     flex-wrap:wrap;
 }
-.color-item{
-    background-color:$btn-color;
-}
-.column-pedidos{
+// .color-item{
+//     background-color:;
+// }
+.colum-pedidos{
     display: flex;
     flex-direction: row;
     width:50%;

@@ -14,7 +14,11 @@ const TiempoDePreparacion = ({ p }) => {
 		return tiempo;
 	}
 	return (
-		<p>Tiempo de preparación : {getTime()}</p>
+		<div className="row space-around principal">
+			<p>Tiempo de preparación:</p>
+			<p>{getTime()}</p>
+		</div>
+		
 
 	)
 }
