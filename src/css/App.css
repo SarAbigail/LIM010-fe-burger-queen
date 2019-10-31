@@ -70,7 +70,7 @@ h1 {
 
 .mg-1 {
   margin: 3em;
-  border: #4f372f solid 1px;
+  border: #513a2a solid 1px;
   border-radius: 5px;
 }
 
@@ -96,7 +96,7 @@ h1 {
 
 .fondo {
   background-image: url("https://www.animalgourmet.com/wp-content/uploads/2016/07/hamburguesa.jpg");
-  height: 400px;
+  height: 100vw;
   background-repeat: no-repeat;
 }
 
