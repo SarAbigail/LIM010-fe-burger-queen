@@ -159,7 +159,7 @@ table {
   background-color: #ffb500;
 }
 
-.colum-pedidos {
+.column-pedidos {
   display: flex;
   flex-direction: row;
   width: 50%;
