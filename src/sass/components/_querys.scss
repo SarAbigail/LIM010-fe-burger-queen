@@ -22,14 +22,14 @@ $pedido-color:#4f372f;
 $letra-color:#ffff;
 $principal:#ffda7f;
 $acento:#F1C40F;
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
 @mixin centered {
   display: flex;
@@ -190,6 +190,10 @@ $acento:#F1C40F;
 }
 .principal{
   background-color: $principal;
+}
+.centered{
+  justify-content: center;
+  align-items: center;
 }
     }
 @media (min-width: 768px) and (max-width: 1024px) {

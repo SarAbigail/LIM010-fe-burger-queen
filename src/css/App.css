@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600&display=swap");
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .btn, .text-box {
     height: max-content;
     width: max-content;
@@ -141,7 +141,11 @@
     font-weight: bold; }
 
   .principal {
-    background-color: #ffda7f; } }
+    background-color: #ffda7f; }
+
+  .centered {
+    justify-content: center;
+    align-items: center; } }
 td {
   background-color: #ffda7f;
   border: dashed 0.5px #4f372f; }
@@ -156,6 +160,10 @@ table {
 .product {
   margin: 10px;
   width: 45%;
+  border: solid 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   padding-top: 15px;
   text-align: center; }
 

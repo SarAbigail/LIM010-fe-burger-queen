@@ -2,7 +2,7 @@ import React from 'react';
 import '../../css/App.css'
 function Footer() {
   return (
-    <footer className="">
+    <footer  className="row centered">
       <p>@2019 Derechos Reservados</p>
     </footer>
   );
