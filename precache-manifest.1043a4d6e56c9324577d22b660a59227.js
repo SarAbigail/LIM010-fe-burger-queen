@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "083f71467ee643ac39c0190416146f4b",
+    "revision": "66b264e21c57fccc0375c4fecce218a1",
     "url": "/SarAbigail/LIM010-fe-burger-queen/index.html"
   },
   {
