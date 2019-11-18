@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/SarAbigail/LIM010-fe-burger-queen/static/css/main.3f6f7120.chunk.css",
-    "main.js": "/SarAbigail/LIM010-fe-burger-queen/static/js/main.f6ccc905.chunk.js",
-    "main.js.map": "/SarAbigail/LIM010-fe-burger-queen/static/js/main.f6ccc905.chunk.js.map",
-    "runtime-main.js": "/SarAbigail/LIM010-fe-burger-queen/static/js/runtime-main.8509e425.js",
-    "runtime-main.js.map": "/SarAbigail/LIM010-fe-burger-queen/static/js/runtime-main.8509e425.js.map",
-    "static/js/2.e7ce5dc1.chunk.js": "/SarAbigail/LIM010-fe-burger-queen/static/js/2.e7ce5dc1.chunk.js",
-    "static/js/2.e7ce5dc1.chunk.js.map": "/SarAbigail/LIM010-fe-burger-queen/static/js/2.e7ce5dc1.chunk.js.map",
-    "index.html": "/SarAbigail/LIM010-fe-burger-queen/index.html",
-    "precache-manifest.1043a4d6e56c9324577d22b660a59227.js": "/SarAbigail/LIM010-fe-burger-queen/precache-manifest.1043a4d6e56c9324577d22b660a59227.js",
-    "service-worker.js": "/SarAbigail/LIM010-fe-burger-queen/service-worker.js",
-    "static/css/main.3f6f7120.chunk.css.map": "/SarAbigail/LIM010-fe-burger-queen/static/css/main.3f6f7120.chunk.css.map"
+    "main.css": "/LIM010-fe-burger-queen/static/css/main.3f6f7120.chunk.css",
+    "main.js": "/LIM010-fe-burger-queen/static/js/main.9c6d4001.chunk.js",
+    "main.js.map": "/LIM010-fe-burger-queen/static/js/main.9c6d4001.chunk.js.map",
+    "runtime-main.js": "/LIM010-fe-burger-queen/static/js/runtime-main.52ef8957.js",
+    "runtime-main.js.map": "/LIM010-fe-burger-queen/static/js/runtime-main.52ef8957.js.map",
+    "static/js/2.5339306c.chunk.js": "/LIM010-fe-burger-queen/static/js/2.5339306c.chunk.js",
+    "static/js/2.5339306c.chunk.js.map": "/LIM010-fe-burger-queen/static/js/2.5339306c.chunk.js.map",
+    "index.html": "/LIM010-fe-burger-queen/index.html",
+    "precache-manifest.46109630144fcd90f15bf822042fb6c2.js": "/LIM010-fe-burger-queen/precache-manifest.46109630144fcd90f15bf822042fb6c2.js",
+    "service-worker.js": "/LIM010-fe-burger-queen/service-worker.js",
+    "static/css/main.3f6f7120.chunk.css.map": "/LIM010-fe-burger-queen/static/css/main.3f6f7120.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.8509e425.js",
-    "static/js/2.e7ce5dc1.chunk.js",
+    "static/js/runtime-main.52ef8957.js",
+    "static/js/2.5339306c.chunk.js",
     "static/css/main.3f6f7120.chunk.css",
-    "static/js/main.f6ccc905.chunk.js"
+    "static/js/main.9c6d4001.chunk.js"
   ]
 }
