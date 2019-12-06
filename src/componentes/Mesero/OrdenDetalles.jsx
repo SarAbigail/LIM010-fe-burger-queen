@@ -2,7 +2,7 @@ import React from 'react';
 import firebase from '../firebase';
 import '../../css/App.css';
 
-export const OrdenDetalles = ({ seleccionados, name, setSeleccionados, setTotal, total,setName }) => {
+export const OrdenDetalles = ({ seleccionados, name, setSeleccionados, setTotal, total,setName, mesa , setMesa }) => {
   const Eliminar = (elegido) => {
     const productosEliminados = seleccionados.filter(element => element.nombre !== elegido)
     return setSeleccionados(productosEliminados);
@@ -17,6 +17,7 @@ export const OrdenDetalles = ({ seleccionados, name, setSeleccionados, setTotal,
       .collection("orden")
       .add({
         cliente: name,
+        mesa: mesa,
         hora: new Date(),
         preparación: 0,
         total: total,
@@ -30,6 +31,7 @@ export const OrdenDetalles = ({ seleccionados, name, setSeleccionados, setTotal,
       .then(() => { 
         setSeleccionados([]);
         setName('');
+        setMesa('');
       });
     return añadirOrden;
   }
@@ -40,6 +42,7 @@ export const OrdenDetalles = ({ seleccionados, name, setSeleccionados, setTotal,
         <form className="order-box">
           <h1>Detalles de la Orden</h1>
           <label className="mg-1">Cliente: &nbsp;{name}</label>
+          <label >Mesa: &nbsp;{mesa}</label>
           <div>
             <table className="mg-1">
               <thead className="">
