@@ -8,6 +8,7 @@ const EstructuraDelPedido = ({ origen, Entregar, Listo }) => {
 				{origen.map((p) => (
 					<div key={p.id} className="product col" >
 						<p className="principal">Cliente: {p.cliente}</p>
+				<p>Mesa: {p.mesa}</p>
 						<table className="">
 							<thead>
 								<tr>

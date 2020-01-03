@@ -12,6 +12,7 @@ const Mesero = () => {
   const [seleccionados, setSeleccionados] = useState([]);
   const [name, setName] = useState('');
   const [total, setTotal] = useState(0);
+  const [mesa, setMesa] = useState('');
 
 
   useEffect(() => {
@@ -33,8 +34,8 @@ const Mesero = () => {
     <React.Fragment>
       <Header />
       <div className="column-pedidos fila Site-content" >
-        <NuevaOrden setTipo={setTipo} productos={productos} name={name} setName={setName} seleccionados={seleccionados} setSeleccionados={setSeleccionados} />
-        <OrdenDetalles seleccionados={seleccionados} name={name} setName={setName} setSeleccionados={setSeleccionados} setTotal={setTotal} total={total} />
+        <NuevaOrden setTipo={setTipo} productos={productos}  mesa={mesa} setMesa={setMesa} name={name} setName={setName} seleccionados={seleccionados} setSeleccionados={setSeleccionados} />
+        <OrdenDetalles seleccionados={seleccionados} name={name} setName={setName}  mesa={mesa} setMesa={setMesa} setSeleccionados={setSeleccionados} setTotal={setTotal} total={total} />
       </div>
       <Footer />
     </React.Fragment>

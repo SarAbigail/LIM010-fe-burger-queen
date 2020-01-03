@@ -1,8 +1,9 @@
 import React from 'react';
 import NombreCliente from './NombreCliente';
 import BotonOpciones from '../BotonOpciones';
+import NumeroMesa from './NumeroMesa';
 
-const NuevaOrden = ({ name, setName, setTipo, productos, seleccionados, setSeleccionados }) => {
+const NuevaOrden = ({ mesa, setMesa, name, setName, setTipo, productos, seleccionados, setSeleccionados }) => {
 
 	const Agregando = (nuevoproducto) => {
 		if (seleccionados.find(element => element.id === nuevoproducto.id)) {
@@ -27,10 +28,11 @@ const NuevaOrden = ({ name, setName, setTipo, productos, seleccionados, setSelec
 	}
 
 	return (
-		<div className="w-50"> 
+		<div className="w-50">
 			<form className="order-box">
 				<h1>Nueva Orden</h1>
 				<NombreCliente name={name} setName={setName} />
+				<NumeroMesa mesa={mesa} setMesa={setMesa}></NumeroMesa>
 				<div className="row">
 					<BotonOpciones funcionDeSetearTipo={setTipo} texto="DESAYUNO" tipo="desayuno" />
 					<BotonOpciones funcionDeSetearTipo={setTipo} texto="ALMUERZO  Y CENA" tipo="almuerzo" />
